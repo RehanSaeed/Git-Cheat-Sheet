@@ -31,14 +31,20 @@ A cheat sheet for uncommon Git commands
 | Command | Description |
 | - | - |
 | `git diff`                                | See difference between working area and current branch |
+| `git diff HEAD HEAD~2`                    | See difference between te current commit and two previous commits |
 | `git diff master other`                   | See difference between two branches |
 
 ## View
 | Command | Description |
 | - | - |
 | `git log`                                 | See commit list |
+| `git log --patch`                         | See commit list and line changes |
 | `git log --graph --oneline --decorate`    | See commit visualization |
-| `git show HEAD`                           | Show current commit |
+| `git log --grep foo`                      | See commits with foo in the message |
+| `git show HEAD`                           | Show the current commit |
+| `git show HEAD^` or `git show HEAD~1`     | Show the previous commit |
+| `git show HEAD^^` or `git show HEAD~2`    | Show the commit going back two commits |
+| `git show master`                         | Show the last commit in a branch |
 | `git show 5720fdf`                        | Show named commit |
 | `git blame file.txt`                      | See who changed each line and when |
 
