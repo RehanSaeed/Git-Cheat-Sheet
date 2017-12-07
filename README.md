@@ -57,3 +57,12 @@ A cheat sheet for uncommon Git commands
 | `git stash apply`                         | Moved last stash to working area |
 | `git stash apply 0`                       | Moved named stash to working area |
 | `git stash clear`                         | Clear the stash |
+
+## Remote
+| Command | Description |
+| - | - |
+| `git remote -v`                           | List remote repositories |
+| `git remote show origin`                  | Show remote repository details |
+| `git remote add upstream <url>`           | Add remote upstream repository |
+| `git remote -v`                           | List remote repositories |
+| `git push --tags`                         | Push tags to remote repository |
