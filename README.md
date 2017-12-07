@@ -11,7 +11,7 @@ A cheat sheet for uncommon Git commands
 ## Staged Changes
 | Command | Description |
 | - | - |
-| `git mv file1.txt file2.txt               | Move/rename file |
+| `git mv file1.txt file2.txt`               | Move/rename file |
 | `git rm --cached file.txt`                | Unstage file |
 | `git rm --force file.txt`                 | Unstage and delete file |
 | `git reset HEAD`                          | Unstage changes |
