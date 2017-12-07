@@ -1,6 +1,12 @@
 # Git-Cheat-Sheet
 A cheat sheet for uncommon Git commands
 
+## Configuration
+| Command | Description |
+| - | - |
+| `git config --global user.name "foo"`     | Set user name |
+| `git config --global user.email "foo"`    | Set user email |
+
 ## Branches
 | Command | Description |
 | - | - |
@@ -26,6 +32,7 @@ A cheat sheet for uncommon Git commands
 | `git revert 5720fdf`                      | Revert a commit |
 | `git rebase --interactive`                | Squash, rename and drop commits |
 | `git rebase --continue`                   | Continue an interactive rebase |
+| `git rebase --abort`                      | Cancel an interactive rebase |
 
 ## Compare
 | Command | Description |
