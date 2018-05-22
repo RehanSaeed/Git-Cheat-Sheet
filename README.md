@@ -71,5 +71,7 @@ A cheat sheet for uncommon Git commands
 | `git remote -v`                           | List remote repositories |
 | `git remote show origin`                  | Show remote repository details |
 | `git remote add upstream <url>`           | Add remote upstream repository |
+| `git fetch upstream`                      | Fetch all remote branches |
+| `git rebase upstream/master`              | Refresh master branch from upstream |
 | `git remote -v`                           | List remote repositories |
 | `git push --tags`                         | Push tags to remote repository |
