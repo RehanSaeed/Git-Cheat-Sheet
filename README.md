@@ -26,13 +26,13 @@ A cheat sheet for uncommon Git commands
 ## Changing Commits
 | Command | Description |
 | - | - |
-| `git reset 5720fdf`                       | Reset current branch but not working area to commit |
-| `git reset --hard 5720fdf`                | Reset current branch and working area to commit |
-| `git commit --amend -m "New message"`     | Change the last commit message |
-| `git revert 5720fdf`                      | Revert a commit |
-| `git rebase --interactive`                | Squash, rename and drop commits |
-| `git rebase --continue`                   | Continue an interactive rebase |
-| `git rebase --abort`                      | Cancel an interactive rebase |
+| `git reset 5720fdf`                                | Reset current branch but not working area to commit |
+| `git reset --hard 5720fdf`                         | Reset current branch and working area to commit |
+| `git commit --amend -m "New message"`              | Change the last commit message |
+| `git revert 5720fdf`                               | Revert a commit |
+| `git rebase --interactive` [origin/master|sa78d6s] | Squash, rename and drop commits |
+| `git rebase --continue`                            | Continue an interactive rebase |
+| `git rebase --abort`                               | Cancel an interactive rebase |
 
 ## Compare
 | Command | Description |
