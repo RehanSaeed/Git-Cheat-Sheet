@@ -17,7 +17,7 @@ A cheat sheet for uncommon Git commands
 ## Staged Changes
 | Command | Description |
 | - | - |
-| `git mv file1.txt file2.txt`               | Move/rename file |
+| `git mv file1.txt file2.txt`              | Move/rename file |
 | `git rm --cached file.txt`                | Unstage file |
 | `git rm --force file.txt`                 | Unstage and delete file |
 | `git reset HEAD`                          | Unstage changes |
@@ -30,7 +30,7 @@ A cheat sheet for uncommon Git commands
 | `git reset --hard 5720fdf`                         | Reset current branch and working area to commit |
 | `git commit --amend -m "New message"`              | Change the last commit message |
 | `git revert 5720fdf`                               | Revert a commit |
-| `git rebase --interactive` [origin/master|sa78d6s] | Squash, rename and drop commits |
+| `git rebase --interactive [origin/master|sa78d6s]` | Squash, rename and drop commits |
 | `git rebase --continue`                            | Continue an interactive rebase |
 | `git rebase --abort`                               | Cancel an interactive rebase |
 
