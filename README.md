@@ -46,7 +46,7 @@ A cheat sheet for uncommon Git commands
 | - | - |
 | `git log`                                 | See commit list |
 | `git log --patch`                         | See commit list and line changes |
-| `git log --graph --oneline --decorate`    | See commit visualization |
+| `git log --decorate --graph --oneline`    | See commit visualization |
 | `git log --grep foo`                      | See commits with foo in the message |
 | `git show HEAD`                           | Show the current commit |
 | `git show HEAD^` or `git show HEAD~1`     | Show the previous commit |
