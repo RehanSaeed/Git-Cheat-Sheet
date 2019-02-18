@@ -14,6 +14,11 @@ A cheat sheet for uncommon Git commands
 | `git checkout foo`                        | Switch to a branch |
 | `git merge foo`                           | Merge branch into current branch |
 
+## Pulling
+| Command | Description |
+| - | - |
+| `git pull --rebase --prune`               | Get latest, rebase any changes not checked in and delete branches that no longer exist | 
+
 ## Staged Changes
 | Command | Description |
 | - | - |
