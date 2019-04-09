@@ -64,7 +64,7 @@ A cheat sheet for uncommon Git commands
 ## Stash
 | Command | Description |
 | - | - |
-| `git stash`                               | Stash staged files |
+| `git stash push -m "Message"`             | Stash staged files |
 | `git stash --include-untracked`           | Stash working area and staged files |
 | `git stash list`                          | List stashes |
 | `git stash apply`                         | Moved last stash to working area |
