@@ -32,6 +32,7 @@ A cheat sheet for uncommon Git commands
 | Command | Description |
 | - | - |
 | `git reset 5720fdf`                        | Reset current branch but not working area to commit |
+| `git reset HEAD~1                          | Reset the current branch but not working area to the previous commit |
 | `git reset --hard 5720fdf`                 | Reset current branch and working area to commit |
 | `git commit --amend -m "New message"`      | Change the last commit message |
 | `git revert 5720fdf`                       | Revert a commit |
