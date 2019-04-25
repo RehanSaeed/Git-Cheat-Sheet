@@ -89,11 +89,11 @@ A cheat sheet for uncommon Git commands
 | `git submodule status`                    | Check status of all submodules |
 
 - Pull submodules
-    1. `git submodule sync`
-    2. `git submodule init`
-    3. `git submodule update`
+  1. `git submodule sync`
+  2. `git submodule init`
+  3. `git submodule update`
 - Change branch
-    1. `cd /submodule`
-    2. `git fetch origin <branch-name>`
-    3. `git checkout <branch-name>`
-    4. `cd /`
+  1. `cd /submodule`
+  2. `git fetch origin <branch-name>`
+  3. `git checkout <branch-name>`
+  4. `cd /`
