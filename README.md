@@ -11,8 +11,10 @@ A cheat sheet for uncommon Git commands
 | Command | Description |
 | - | - |
 | `git branch foo`                          | Create a new branch |
-| `git checkout foo`                        | Switch to a branch |
-| `git checkout -b foo`                     | Create and switch to a branch |
+| `git switch foo`                          | Switch to a branch |
+| `git switch -c|--create foo`              | Create and switch to a branch |
+| `git checkout foo`                        | Use `git switch` instead |
+| `git checkout -b foo`                     | Use `git switch -c` instead |
 | `git merge foo`                           | Merge branch into current branch |
 
 ## Pulling
