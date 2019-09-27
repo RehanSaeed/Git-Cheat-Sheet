@@ -40,9 +40,10 @@ A cheat sheet for uncommon Git commands
 | `git commit --amend -m "New message"`      | Change the last commit message |
 | `git revert 5720fdf`                       | Revert a commit |
 | `git rebase --interactive [origin/master]` | Rebase a PR (`git pull` first) |
-| `git rebase --interactive sa78d6s`         | Rebase to a particular commit |
+| `git rebase --interactive 5720fdf`         | Rebase to a particular commit |
 | `git rebase --continue`                    | Continue an interactive rebase |
 | `git rebase --abort`                       | Cancel an interactive rebase |
+| `git cherry-pick 5720fdf`                  | Copy the commit to the current branch |
 
 ## Compare
 | Command | Description |
