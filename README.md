@@ -4,8 +4,8 @@ A cheat sheet for uncommon Git commands
 ## Configuration
 | Command | Description |
 | - | - |
-| `git config --global user.name "foo"`     | Set user name |
-| `git config --global user.email "foo"`    | Set user email |
+| `git config --global user.name "foo"`              | Set user name |
+| `git config --global user.email "foo@example.com"` | Set user email |
 
 ## Branches
 | Command | Description |
