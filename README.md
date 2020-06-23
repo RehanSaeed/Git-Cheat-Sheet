@@ -84,8 +84,8 @@ A cheat sheet for uncommon Git commands
 | Command | Description |
 | - | - |
 | `git tag`                                            | List all tags |
-| `git tag -a|--annotate 0.0.1 -m|--message "Message"` | Create a tag |
-| `git tag -d|--delete 0.0.1`                          | Delete a tag |
+| `git tag -a\|--annotate 0.0.1 -m\|--message "Message"` | Create a tag |
+| `git tag -d\|--delete 0.0.1`                          | Delete a tag |
 | `git push --tags`                                    | Push tags to remote repository |
 
 ## Remote
