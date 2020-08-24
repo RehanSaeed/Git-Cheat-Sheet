@@ -11,6 +11,7 @@ A cheat sheet for uncommon Git commands
 | Command | Description |
 | - | - |
 | `git branch foo`                          | Create a new branch |
+| `git branch -d foo`                       | Deletes a branch |
 | `git switch foo`                          | Switch to a branch |
 | `git switch -c\|--create foo`             | Create and switch to a branch |
 | `git checkout foo.js`                     | Undo all changes on the foo.js file |
