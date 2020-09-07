@@ -34,8 +34,8 @@ A cheat sheet for uncommon Git commands
 | `git rm --force file.txt`                 | Unstage and delete file |
 | `git reset HEAD`                          | Unstage changes |
 | `git reset --hard HEAD`                   | Unstage and delete changes |
-| `git clean -f|--force -d`                 | Recursively remove untracked files from the working tree |
-| `git clean -f|--force -d -x`              | Recursively remove untracked and ignored files from the working tree |
+| `git clean -f\|--force -d`                 | Recursively remove untracked files from the working tree |
+| `git clean -f\|--force -d -x`              | Recursively remove untracked and ignored files from the working tree |
 
 ## Changing Commits
 | Command | Description |
