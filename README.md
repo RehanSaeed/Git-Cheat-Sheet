@@ -29,14 +29,14 @@ A cheat sheet for uncommon Git commands
 | Command | Description |
 | - | - |
 | `git add file.txt`                        | Stage file |
-| `git add --patch file.txt`                | Stage some but not all changes in a file |
+| `git add -p|--patch file.txt`             | Stage some but not all changes in a file |
 | `git mv file1.txt file2.txt`              | Move/rename file |
 | `git rm --cached file.txt`                | Unstage file |
 | `git rm --force file.txt`                 | Unstage and delete file |
 | `git reset HEAD`                          | Unstage changes |
 | `git reset --hard HEAD`                   | Unstage and delete changes |
-| `git clean -f\|--force -d`                 | Recursively remove untracked files from the working tree |
-| `git clean -f\|--force -d -x`              | Recursively remove untracked and ignored files from the working tree |
+| `git clean -f\|--force -d`                | Recursively remove untracked files from the working tree |
+| `git clean -f\|--force -d -x`             | Recursively remove untracked and ignored files from the working tree |
 
 ## Changing Commits
 | Command | Description |
@@ -47,7 +47,7 @@ A cheat sheet for uncommon Git commands
 | `git commit --amend -m "New message"`         | Change the last commit message |
 | `git commit --fixup 5720fdf -m "New message"` | Merge into the specified commit |
 | `git revert 5720fdf`                          | Revert a commit |
-| `git rebase --interactive [origin/main]`    | Rebase a PR (`git pull` first) |
+| `git rebase --interactive [origin/main]`      | Rebase a PR (`git pull` first) |
 | `git rebase --interactive 5720fdf`            | Rebase to a particular commit |
 | `git rebase --interactive --root 5720fdf`     | Rebase to the root commit |
 | `git rebase --continue`                       | Continue an interactive rebase |
@@ -59,7 +59,7 @@ A cheat sheet for uncommon Git commands
 | - | - |
 | `git diff`                                | See difference between working area and current branch |
 | `git diff HEAD HEAD~2`                    | See difference between te current commit and two previous commits |
-| `git diff main other`                   | See difference between two branches |
+| `git diff main other`                     | See difference between two branches |
 
 ## View
 | Command | Description |
@@ -71,7 +71,7 @@ A cheat sheet for uncommon Git commands
 | `git show HEAD`                           | Show the current commit |
 | `git show HEAD^` or `git show HEAD~1`     | Show the previous commit |
 | `git show HEAD^^` or `git show HEAD~2`    | Show the commit going back two commits |
-| `git show main`                         | Show the last commit in a branch |
+| `git show main`                           | Show the last commit in a branch |
 | `git show 5720fdf`                        | Show named commit |
 | `git blame file.txt`                      | See who changed each line and when |
 
@@ -88,10 +88,10 @@ A cheat sheet for uncommon Git commands
 ## Tags
 | Command | Description |
 | - | - |
-| `git tag`                                            | List all tags |
+| `git tag`                                              | List all tags |
 | `git tag -a\|--annotate 0.0.1 -m\|--message "Message"` | Create a tag |
-| `git tag -d\|--delete 0.0.1`                          | Delete a tag |
-| `git push --tags`                                    | Push tags to remote repository |
+| `git tag -d\|--delete 0.0.1`                           | Delete a tag |
+| `git push --tags`                                      | Push tags to remote repository |
 
 ## Remote
 | Command | Description |
@@ -100,7 +100,7 @@ A cheat sheet for uncommon Git commands
 | `git remote show origin`                  | Show remote repository details |
 | `git remote add upstream <url>`           | Add remote upstream repository |
 | `git fetch upstream`                      | Fetch all remote branches |
-| `git rebase upstream/main`              | Refresh main branch from upstream |
+| `git rebase upstream/main`                | Refresh main branch from upstream |
 | `git remote -v`                           | List remote repositories |
 | `git push --tags`                         | Push tags to remote repository |
 
