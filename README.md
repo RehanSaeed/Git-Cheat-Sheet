@@ -80,6 +80,7 @@ A cheat sheet for uncommon Git commands
 | - | - |
 | `git stash push -m "Message"`             | Stash staged files |
 | `git stash --include-untracked`           | Stash working area and staged files |
+| `git stash --staged`                      | Stash staged files |
 | `git stash list`                          | List stashes |
 | `git stash apply`                         | Moved last stash to working area |
 | `git stash apply 0`                       | Moved named stash to working area |
