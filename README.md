@@ -103,6 +103,8 @@ A cheat sheet for uncommon Git commands
 | `git fetch upstream`                      | Fetch all remote branches |
 | `git rebase upstream/main`                | Refresh main branch from upstream |
 | `git remote -v`                           | List remote repositories |
+| `git push --force                         | Push any changes while overwriting any remote changes |
+| `git push --force-with-lease              | Push any changes but stop if there are any remote changes |
 | `git push --tags`                         | Push tags to remote repository |
 
 ## Submodules
