@@ -20,6 +20,21 @@ A cheat sheet for uncommon Git commands
 | `git checkout -b foo`                     | Use `git switch -c` instead |
 | `git merge foo`                           | Merge branch into current branch |
 
+## Worktrees
+| Command | Description |
+| - | - |
+| `git worktree list`                       | List all worktrees |
+| `git worktree add ../foo`                 | Check out branch foo (created from HEAD if it doesn't exist) into a new worktree at ../foo |
+| `git worktree add ../foo foo`             | Check out existing branch foo into a new worktree at ../foo |
+| `git worktree add -b foo ../foo`          | Create branch foo and check it out into a new worktree at ../foo |
+| `git worktree add --detach ../foo 5720fdf` | Check out a commit into a new worktree with a detached HEAD |
+| `git worktree remove ../foo`              | Remove a worktree |
+| `git worktree remove --force ../foo`      | Remove a worktree with uncommitted changes |
+| `git worktree move ../foo ../bar`         | Move a worktree to a new location |
+| `git worktree lock ../foo`                | Prevent a worktree from being pruned, moved or removed |
+| `git worktree unlock ../foo`              | Unlock a worktree |
+| `git worktree prune`                      | Clean up stale worktree information for deleted folders |
+
 ## Pulling
 | Command | Description |
 | - | - |
