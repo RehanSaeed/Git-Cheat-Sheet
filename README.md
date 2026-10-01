@@ -24,7 +24,7 @@ A cheat sheet for uncommon Git commands
 | Command | Description |
 | - | - |
 | `git worktree list`                       | List all worktrees |
-| `git worktree add foo`                    | Check out branch foo (created from HEAD if it doesn't exist) into a new worktree at ./foo inside the repo |
+| `git worktree add .worktrees/foo`         | Check out branch foo (created from HEAD if it doesn't exist) into a new worktree at .worktrees/foo (add `.worktrees/` to `.gitignore`) |
 | `git worktree add ../foo foo`             | Check out existing branch foo into a new worktree at ../foo |
 | `git worktree add -b foo ../foo`          | Create branch foo and check it out into a new worktree at ../foo |
 | `git worktree add --detach ../foo 5720fdf` | Check out a commit into a new worktree with a detached HEAD |
